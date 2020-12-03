@@ -10,13 +10,13 @@
             <div class="form-group">
                 <label for="nome">Nome</label>
                 <input type="text" class="form-control" name="nome" 
-                       id="nome" placeholder="produto">
+                       id="nome" placeholder="produto" required>
             </div>
           
             <div class="form-group">
                 <label for="preco">Preço</label>
                 <input type="text" class="form-control" name="nome" 
-                       id="preco" placeholder="preco">
+                       id="preco" placeholder="preco" required>
             </div>
             <button type="submit" class="btn btn-primary btn-sm">Salvar</button>
             <button type="cancel" class="btn btn-danger btn-sm">Cancel</button>
